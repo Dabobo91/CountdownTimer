@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Countdown Timer">
+<link rel="apple-touch-icon" href="icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="timer-container">
+        <div id="time-selector">
+            <button onclick="startTimer(5)">5 min</button>
+            <button onclick="startTimer(10)">10 min</button>
+            <button onclick="startTimer(15)">15 min</button>
+            <button onclick="startTimer(20)">20 min</button>
+            <button onclick="startTimer(25)">25 min</button>
+        </div>
+        <div id="countdown" style="display: none;">00:00</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
